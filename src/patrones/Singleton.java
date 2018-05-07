@@ -14,6 +14,10 @@ public class Singleton {
     
     private Singleton(){}
     
+    /**
+     * Crear una instancia unica de Singleton
+     * @return Singleton
+     */
     public Singleton getInstance(){
         if(singleton == null){
             singleton = new Singleton();
