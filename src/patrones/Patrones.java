@@ -15,7 +15,13 @@ public class Patrones {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Singleton s1, s2;
+        
+        s1 = Singleton.getInstance();
+        System.out.println(s1);
+       
+        s2 = Singleton.getInstance();
+        System.out.println(s2);
     }
     
 }
