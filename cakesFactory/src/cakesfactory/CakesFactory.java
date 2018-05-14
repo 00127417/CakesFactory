@@ -15,7 +15,18 @@ public class CakesFactory {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Cakes pastel = CakesCreator.getCake(CakeType.CHOCOLATE);
+        pastel.cocinar();
+        pastel.decoracion();
+        
+        pastel = CakesCreator.getCake(CakeType.FRUTAS);
+        pastel.cocinar();
+        pastel.decoracion();
+        
+        pastel = CakesCreator.getCake(CakeType.CARAMELO);
+        pastel.cocinar();
+        pastel.decoracion();
+
     }
     
 }
