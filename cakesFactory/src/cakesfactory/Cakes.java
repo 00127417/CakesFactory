@@ -11,4 +11,5 @@ package cakesfactory;
  */
 public interface Cakes {
     public void cocinar();
+    public void decoracion();
 }
